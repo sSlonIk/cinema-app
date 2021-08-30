@@ -1,10 +1,11 @@
 [![Build Status](https://api.travis-ci.com/den4eg007/taxi-service.svg?branch=master)](https://travis-ci.com/den4eg007/taxi-service)
+
 ## Cinema application
 
 ---
-    CinemaApp is an application to manage tickets bought on the occasion of a cinema session by a user. An app can be used
-to organize the interactions between the customer and selling department, a user has an opportunity to choose an
-available sessions, purchasing tickets, make an order, login and  register.
+CinemaApp is an application to manage tickets bought on the occasion of a cinema session by a user. An app can be used
+to organize the interactions between the customer and selling department, a user has an opportunity to choose available
+sessions, purchase tickets, make an order, view order history, login and register.
 
 ### Usage
 
@@ -13,26 +14,23 @@ available sessions, purchasing tickets, make an order, login and  register.
 
 - register
 - login
-- get all available performance sessions according to request
-- view current stages in Database
 
 <h3>Authenticated user:</h3>
 
 - has the same capabilities as the guest + capability to
-    - purchase tickets
+    - view all data about movie sessions, movies and cinema halls
     - add tickets to shopping cart
-    - view purchase history
+    - view order history
     - complete orders
     - check current shopping cart
 
 <h3> Admin: </h3>
 
 - has the same capabilities of user, additionally can
-    - add new performance sessions
-    - manage stages
-    - manage performances
-    - administer schedule
-    - add user/remove user
+    - add new movie sessions/cinema halls
+    - manage movies, movies sessions and cinema halls
+    - manage schedule
+    - look info about users 
 
 ### Technologies
 
@@ -62,3 +60,4 @@ available sessions, purchasing tickets, make an order, login and  register.
 5. You can log in with the following:
     - Admin:(name: "bob@i.ua", password:"11111");
     - User:(name: "alice@i.ua", password:"22222");
+    - or create your own in `cinema/config/DataInitializer`.
