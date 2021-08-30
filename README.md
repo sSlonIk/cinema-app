@@ -36,7 +36,7 @@ sessions, purchase tickets, make an order, view order history, login and registe
 
 ---
 
-- Spring - Core / MVC / Web / Security
+- Spring - Core / MVC / Security
 - MySQL
 - Hibernate
 - Apache Maven
